@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .warp
+        {
+            width: 800px;
+            height: 320px;
+            margin: 100px auto;
+        }
+        .w_right
+        {
+            width: 650px;
+            height: 320px;
+            float: right;
+            background-image: url(./imgs/图片.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .w_left
+        {         
+            width: 150px;
+            height: 320px;
+            float: left;
+            background-color: gray;
+        }
+        .w_left>a
+        {
+            width: 150px;
+            height: 32px;
+            display: inline-block;
+            line-height: 30px;
+            padding-left: 30px;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+        .w_left>a:hover
+        {
+            background-color: orange;
+            width: 120px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="warp">
+        <div class="w_right"></div>
+        <div class="w_left">
+            <a href="#">手机 电话卡</a>
+            <a href="#">电视 盒子</a>
+            <a href="#">笔记本 平板</a>
+            <a href="#">家电 插线板</a>
+            <a href="#">出行 穿戴</a>
+            <a href="#">智能 路由器</a>
+            <a href="#">电源 配件</a>
+            <a href="#">健康 儿童</a>
+            <a href="#">耳机 音响</a>
+            <a href="#">生活 箱包</a>
+        </div>
+    </div>
+</body>
+</html>

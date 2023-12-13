@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .warp
+        {
+            width: 600px;
+            height: 41px;
+            /* 一定要按照顺序写好 border：5px solid color 不然显示不出来*/
+            border-top: 3px solid #ff8500; 
+            border-bottom: 1px solid gray;
+        }
+        .warp>a
+        {
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            
+        }
+        .da
+        {
+            line-height: 41px;
+            padding-left: 15px;
+            padding-right: 15px;
+            /*  padding-left: 15px;padding-right: 15px;-->>等价于padding：0 20px ；0表示上下 20px表示左右*/
+        }
+        .da:hover
+        {
+            background-color: #edeef0;
+        }
+    </style>
+</head>
+<body>
+    <div class="warp">
+        <a href="#" class="da">设为首页</a>
+        <a href="#" class="da">手机新浪网</a>
+        <a href="#" class="da">移动客户端</a>
+        <a href="#" class="da">博客</a>
+        <a href="#" class="da">微博</a>
+    </div>
+</body>
+</html>
